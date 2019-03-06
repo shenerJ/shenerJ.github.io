@@ -5,9 +5,9 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
+  <link href="https://shenerj.github.io/"/>
   <updated>2019-03-06T03:42:28.328Z</updated>
-  <id>http://yoursite.com/</id>
+  <id>https://shenerj.github.io/</id>
   
   <author>
     <name>三千丁</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>nihao</title>
-    <link href="http://yoursite.com/2019/03/05/nihao/"/>
-    <id>http://yoursite.com/2019/03/05/nihao/</id>
+    <link href="https://shenerj.github.io/2019/03/05/nihao/"/>
+    <id>https://shenerj.github.io/2019/03/05/nihao/</id>
     <published>2019-03-05T10:59:45.000Z</published>
     <updated>2019-03-06T03:42:28.328Z</updated>
     
@@ -35,17 +35,17 @@
     
     </summary>
     
-      <category term="生活" scheme="http://yoursite.com/categories/%E7%94%9F%E6%B4%BB/"/>
+      <category term="生活" scheme="https://shenerj.github.io/categories/%E7%94%9F%E6%B4%BB/"/>
     
     
-      <category term="闲聊" scheme="http://yoursite.com/tags/%E9%97%B2%E8%81%8A/"/>
+      <category term="闲聊" scheme="https://shenerj.github.io/tags/%E9%97%B2%E8%81%8A/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="http://yoursite.com/2019/03/05/hello-world/"/>
-    <id>http://yoursite.com/2019/03/05/hello-world/</id>
+    <link href="https://shenerj.github.io/2019/03/05/hello-world/"/>
+    <id>https://shenerj.github.io/2019/03/05/hello-world/</id>
     <published>2019-03-05T10:25:45.467Z</published>
     <updated>2019-03-05T10:25:45.467Z</updated>
     
