@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://shenerj.github.io/"/>
-  <updated>2019-03-07T02:27:24.936Z</updated>
+  <updated>2019-03-07T09:35:24.393Z</updated>
   <id>https://shenerj.github.io/</id>
   
   <author>
@@ -17,42 +17,16 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Invalid CSR</title>
-    <link href="https://shenerj.github.io/2019/03/07/Invalid-CSR/"/>
-    <id>https://shenerj.github.io/2019/03/07/Invalid-CSR/</id>
-    <published>2019-03-07T02:27:24.000Z</published>
-    <updated>2019-03-07T02:27:24.936Z</updated>
+    <title>title type</title>
+    <link href="https://shenerj.github.io/2019/03/07/title-type/"/>
+    <id>https://shenerj.github.io/2019/03/07/title-type/</id>
+    <published>2019-03-07T09:35:24.000Z</published>
+    <updated>2019-03-07T09:35:24.393Z</updated>
     
     <summary type="html">
     
     </summary>
     
-    
-  </entry>
-  
-  <entry>
-    <title>nihao</title>
-    <link href="https://shenerj.github.io/2019/03/05/nihao/"/>
-    <id>https://shenerj.github.io/2019/03/05/nihao/</id>
-    <published>2019-03-05T10:59:45.000Z</published>
-    <updated>2019-03-06T03:42:28.328Z</updated>
-    
-    <content type="html"><![CDATA[<p>百度 <a href="http://www.baidu.com" target="_blank" rel="noopener">www.baidu.com</a></p><p>谷歌 <a href="http://www.google.com" target="_blank" rel="noopener">www.google.com</a></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;百度 &lt;a href=&quot;http://www.baidu.com&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;www.baidu.com&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;谷歌 &lt;a href=&quot;http://www.google.com&quot; target=&quot;_bla
-      
-    
-    </summary>
-    
-      <category term="生活" scheme="https://shenerj.github.io/categories/%E7%94%9F%E6%B4%BB/"/>
-    
-    
-      <category term="闲聊" scheme="https://shenerj.github.io/tags/%E9%97%B2%E8%81%8A/"/>
     
   </entry>
   
