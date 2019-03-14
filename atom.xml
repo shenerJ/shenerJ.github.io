@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://shenerj.github.io/"/>
-  <updated>2019-03-07T09:35:24.393Z</updated>
+  <updated>2019-03-14T07:38:20.048Z</updated>
   <id>https://shenerj.github.io/</id>
   
   <author>
@@ -15,6 +15,84 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>test</title>
+    <link href="https://shenerj.github.io/2019/03/14/test/"/>
+    <id>https://shenerj.github.io/2019/03/14/test/</id>
+    <published>2019-03-14T07:38:20.000Z</published>
+    <updated>2019-03-14T07:38:20.048Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>hexo配置踩坑帖</title>
+    <link href="https://shenerj.github.io/2019/03/14/hexo%E9%85%8D%E7%BD%AE%E8%B8%A9%E5%9D%91%E5%B8%96/"/>
+    <id>https://shenerj.github.io/2019/03/14/hexo配置踩坑帖/</id>
+    <published>2019-03-14T03:14:37.000Z</published>
+    <updated>2019-03-14T07:44:27.793Z</updated>
+    
+    <content type="html"><![CDATA[<p>执行  <code>hexo new &#39;标题&#39;</code>  创建文章之后，如何快捷打开进行编辑呢？</p><p>解决步骤：</p><ol><li><p>在 Hexo 目录下的 <code>scripts</code>目录（ 没有，就新建一个，<code>mkdir scripts</code>  ）中创建 js 脚本文件,  js 文件名任意，如 <code>auto_open_editor.js</code></p></li><li><p><code>auto_open_editor.js</code>  内容：</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> exec = <span class="built_in">require</span>(<span class="string">'child_process'</span>).exec;</span><br><span class="line"></span><br><span class="line"><span class="comment">// Hexo 2.x 用户复制这段</span></span><br><span class="line"><span class="comment">// hexo.on('new', function(path)&#123;</span></span><br><span class="line"><span class="comment">//     exec('open -a "编辑器绝对路径" ' + path);</span></span><br><span class="line"><span class="comment">// &#125;);</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// Hexo 3 用户复制这段</span></span><br><span class="line">hexo.on(<span class="string">'new'</span>, <span class="function"><span class="keyword">function</span>(<span class="params">data</span>)</span>&#123;</span><br><span class="line">    exec(<span class="string">'open -a "编辑器绝对路径" '</span> + data.path);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure><p>Ps.</p><ol><li>Hexo 版本使用  <code>hexo version</code> 查询</li><li>编辑器绝对路径获取方法：（Mac）直接将 <code>应用程序</code> 中的编辑器拖进终端，即可获取，如 <code>Typora</code> 的路径为：<code>/Applications/Typora.app</code></li></ol></li></ol><p>配置完毕后，创建文章即可自动打开编辑器了。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;执行  &lt;code&gt;hexo new &amp;#39;标题&amp;#39;&lt;/code&gt;  创建文章之后，如何快捷打开进行编辑呢？&lt;/p&gt;
+&lt;p&gt;解决步骤：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;在 Hexo 目录下的 &lt;code&gt;scripts&lt;/code&gt;目录（ 没有，就新建一个，&lt;co
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>@LaunchImage展示小贴士</title>
+    <link href="https://shenerj.github.io/2019/03/14/LaunchImage%E5%B1%95%E7%A4%BA%E5%B0%8F%E8%B4%B4%E5%A3%AB/"/>
+    <id>https://shenerj.github.io/2019/03/14/LaunchImage展示小贴士/</id>
+    <published>2019-03-14T02:34:53.000Z</published>
+    <updated>2019-03-14T02:37:54.694Z</updated>
+    
+    <content type="html"><![CDATA[<p>问题： 在 Assets.xcassets 中 添加了 LaunchImage 后，运行不显示启动图</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;问题： 在 Assets.xcassets 中 添加了 LaunchImage 后，运行不显示启动图&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+      <category term="work" scheme="https://shenerj.github.io/categories/work/"/>
+    
+    
+      <category term="LaunchImage" scheme="https://shenerj.github.io/tags/LaunchImage/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>sort method</title>
+    <link href="https://shenerj.github.io/2019/03/13/sort-method/"/>
+    <id>https://shenerj.github.io/2019/03/13/sort-method/</id>
+    <published>2019-03-13T10:23:23.000Z</published>
+    <updated>2019-03-13T10:23:23.676Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>title type</title>
